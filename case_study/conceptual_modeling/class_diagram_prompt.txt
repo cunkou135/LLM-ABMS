@@ -1,0 +1,1 @@
+Using the entity--attribute table and the interaction triplets, generate PlantUML for a class diagram, including each class with its attributes and methods, and the associations annotated with their multiplicities.

@@ -1,0 +1,1 @@
+Generate PlantUML for a sequence diagram of one alert-propagation round, from the emergency department through local media and the environment to residents, including a rumor injection by the social platform and a branch in which a resident forwards the message to peers.

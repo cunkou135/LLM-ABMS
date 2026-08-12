@@ -1,0 +1,1 @@
+Generate PlantUML for a state diagram of the resident's belief and decision lifecycle, with states Unaware → Informed → Deciding → {Evacuating, Staying}, and the transition conditions.

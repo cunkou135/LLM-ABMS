@@ -1,0 +1,7 @@
+Review the full trajectory of regime {regime} ("{regime_label}").
+Trajectory summary: {trajectory_summary}.
+Identify the emergent macro-phenomenon, label it, and interpret the mechanism (which micro interactions produced it).
+Output:
+[Emergence Label]: <a short phrase, e.g., Information Cascade / Rumor-Driven Over-Evacuation / Official Correction / Under-Reaction>
+[Interpretation]: <2-4 sentences linking micro to macro>
+[Confidence]: <low/medium/high>

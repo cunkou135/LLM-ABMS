@@ -1,0 +1,36 @@
+{
+  "model": "deepseek-v4-pro",
+  "base_url": "https://api.deepseek.com",
+  "thinking": "disabled",
+  "reasoning_effort": "high",
+  "temperature": 0.2,
+  "top_p": 0.95,
+  "max_tokens": 8000,
+  "baseline_agents": 200,
+  "baseline_steps": 80,
+  "representative_regime": "R2",
+  "seed": 50001,
+  "regimes": {
+    "R1": {
+      "label": "Fast official + Weak rumor",
+      "tau": 1,
+      "rho": 0.1
+    },
+    "R2": {
+      "label": "Balanced",
+      "tau": 5,
+      "rho": 0.4
+    },
+    "R3": {
+      "label": "Slow official + Moderately strong rumor",
+      "tau": 12,
+      "rho": 0.7
+    },
+    "R4": {
+      "label": "Rumor-dominated cascade",
+      "tau": 20,
+      "rho": 0.9
+    }
+  }
+}
+
